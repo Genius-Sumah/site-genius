@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Moïse Sumaili - Développeur Web et Concepteur Réseaux</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #3498db;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-left: 1rem;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 0.5rem;
+            color: #2c3e50;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .project {
+            flex: 1;
+            min-width: 250px;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            background-color: #fafafa;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 0.75rem;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        .tech-images img {
+            width: 100px;
+            margin: 10px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Moïse Sumaili</h1>
+            <p>Développeur Web & Concepteur Réseaux</p>
+        </div>
+        <img src="img/m.png" alt="Moïse Sumaili">
+    </header>
+
+    <section>
+        <h2>Bibliographie</h2>
+        <p>
+            Je m'appelle Moïse SUMAILI Sumah, développeur web passionné et concepteur de réseaux informatiques. Mon expertise couvre
+            la conception de solutions web, la gestion de projets de réseaux pour les entreprises et collectivités, ainsi que
+            la création d’applications interactives. J'ai travaillé sur plusieurs projets pour améliorer la connectivité et les services 
+            numériques dans divers contextes. Mon approche repose sur l'innovation et la simplicité pour offrir des solutions efficaces.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projets Réalisés</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Application de Gestion de Paie</h3>
+                <p>Développement d'une application pour la gestion des rémunérations des employés, incluant la gestion des employés, des départements et des paiements.</p>
+            </div>
+            <div class="project">
+                <h3>Conception d'un Réseau Local pour la Commune de Shituru</h3>
+                <p>Mise en place d'un réseau local pour la gestion des données au sein de la commune, améliorant la connectivité et les échanges de données.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projets en Cours</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Application de Publication des Enregistrements de Mariage</h3>
+                <p>Conception d'une plateforme web pour la publication et la gestion des enregistrements de mariage, facilitant la consultation des informations publiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Formations</h2>
+        <p>Voici les technologies et langages que j'utilise dans le développement web :</p>
+        <div class="tech-images">
+            <img src="img/html.jfif" alt="HTML">
+            <img src="img/css.png" alt="CSS">
+            <img src="img/js.png" alt="JavaScript">
+            <img src="img/php.jfif" alt="PHP">
+            <img src="img/mysql.png" alt="MySQL">
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <form class="contact-form" action="mailto:moisesumah@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="name" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Retrouvez-moi sur <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | © 2024 Moïse Sumaili</p>
+    </footer>
+</body>
+</html>
